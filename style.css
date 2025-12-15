@@ -1,0 +1,8 @@
+/* Simple clean theme */
+:root { --bg:#0b0f17; --panel:#121826; --text:#e6e8ee; --muted:#a7b0c0; --accent:#3b82f6; --border:rgba(255,255,255,0.08); }
+html, body, [class*="css"] { background-color: var(--bg); color: var(--text); }
+div[data-testid="stSidebar"]{ background-color: var(--panel); border-right:1px solid var(--border); }
+.block-container{ padding-top:2rem; padding-bottom:2rem; }
+.stButton>button{ border-radius:12px; border:1px solid var(--border); background:rgba(59,130,246,0.15); }
+.stButton>button:hover{ border-color:rgba(59,130,246,0.5); }
+hr{ border-color: var(--border) !important; }
