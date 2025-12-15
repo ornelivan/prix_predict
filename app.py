@@ -143,7 +143,7 @@ def build_feature_vector(model_features: List[str], close: pd.Series, ref_time: 
 st.set_page_config(page_title=APP_TITLE, layout="wide")
 load_css()
 st.title(APP_TITLE)
-st.caption("Analyse prix + indicateurs techniques + prédiction LightGBM avec variables de news (GDP/CPI/NFP/...).")
+st.caption("Analyse prix avec indicateurs techniques ")
 
 with st.sidebar:
     st.header("Données")
